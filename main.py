@@ -6,6 +6,7 @@ import traceback
 
 bot = telebot.TeleBot(TOKEN)
 
+#Бот в Telegram через поиск - echangeratesbot#
 
 @bot.message_handler(commands=["start", "help"])
 def start(message):
